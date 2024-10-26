@@ -1,10 +1,13 @@
 {
   "name": "@jefferson-calmon/eslint-config",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "private": false,
   "description": "ESLint configuration used by me in general projects.",
   "main": "index.js",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "url": "jefferson-calmon/eslint-config"
   },
