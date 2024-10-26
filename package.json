@@ -12,8 +12,7 @@
     "url": "jefferson-calmon/eslint-config"
   },
   "scripts": {
-    "pub": "npm version minor && npm publish",
-    "postpublish": "gt && git push"
+    "pub": "gt && npm version minor && npm publish && git push"
   },
   "peerDependencies": {
     "eslint": "`>=8",
