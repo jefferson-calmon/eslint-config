@@ -85,6 +85,9 @@ module.exports = {
                 '^\\.',
               ],
 
+              // Imports de arquivos estáticos
+              ['^(assets)(/.*|$)'],
+
               // Imports de estilização
               ['^./styles'],
 
