@@ -15,7 +15,7 @@
     "pub": "gt && npm version minor && npm publish && git push"
   },
   "peerDependencies": {
-    "eslint": "`>=8",
+    "eslint": ">=8",
     "typescript": ">=5"
   },
   "peerDependenciesMeta": {
