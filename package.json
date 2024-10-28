@@ -1,6 +1,6 @@
 {
   "name": "@jefferson-calmon/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "private": false,
   "description": "ESLint configuration used by me in general projects.",
   "main": "index.js",
