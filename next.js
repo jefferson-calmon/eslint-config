@@ -80,7 +80,7 @@ module.exports = {
               // Imports organizados por estrutura de projeto e pacotes de terceiros
               [
                 // Subgrupo 1: Imports de módulos internos do projeto, como utils, components, etc.
-                '^(utils|hooks|types|contexts|components|middlewares|services|styles|assets|config|constants|controllers|helpers|icons|layouts|models|views|theme|themes)(/.*|$)',
+                '^(utils|hooks|types|contexts|components|middlewares|services|styles|config|constants|controllers|helpers|icons|layouts|models|views|theme|themes)(/.*|$)',
                 // Subgrupo 3: Imports relativos (começando com './', '../', ou '.')
                 '^\\.',
               ],
